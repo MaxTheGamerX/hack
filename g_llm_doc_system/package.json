@@ -1,0 +1,19 @@
+{
+  "name": "g_llm_doc_system",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "openai": "^4.37.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.5.2",
+    "mailparser": "^3.9.0",
+    "langchain": "^0.2.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
