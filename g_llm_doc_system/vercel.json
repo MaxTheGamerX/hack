@@ -1,9 +1,7 @@
 {
-  "version": 2,
   "functions": {
-    "api/process.ts": {
-      "runtime": "edge",
-      "maxDuration": 15
+    "api/**.js": {
+      "runtime": "nodejs18.x"
     }
   }
 }
